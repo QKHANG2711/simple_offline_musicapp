@@ -1,0 +1,19 @@
+name: offline_music_player
+description: Simple Offline Music App
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.5
+  just_audio: ^0.9.36
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/audio/sample_songs/
+    - assets/images/
